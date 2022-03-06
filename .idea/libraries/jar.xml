@@ -1,0 +1,20 @@
+<component name="libraryTable">
+  <library name="jar">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../../../../jar" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://D:/sqljdbc_9.4/chs/samples/adaptive" />
+      <root url="file://D:/sqljdbc_9.4/chs/samples/alwaysencrypted" />
+      <root url="file://D:/sqljdbc_9.4/chs/samples/azureactivedirectoryauthentication" />
+      <root url="file://D:/sqljdbc_9.4/chs/samples/connections" />
+      <root url="file://D:/sqljdbc_9.4/chs/samples/constrained" />
+      <root url="file://D:/sqljdbc_9.4/chs/samples/dataclassification" />
+      <root url="file://D:/sqljdbc_9.4/chs/samples/datatypes" />
+      <root url="file://D:/sqljdbc_9.4/chs/samples/resultsets" />
+      <root url="file://D:/sqljdbc_9.4/chs/samples/sparse" />
+    </SOURCES>
+    <jarDirectory url="file://$PROJECT_DIR$/../../../../jar" recursive="false" />
+  </library>
+</component>
