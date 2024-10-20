@@ -1,36 +1,170 @@
+
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Website</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <header>
-        <h1>Welcome to My Website</h1>
-    </header>
-    <nav>
-        <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
-    <section id="about">
-        <h2>About Me</h2>
-        <p>Introduction about yourself or the website.</p>
-    </section>
-    <section id="projects">
-        <h2>Projects</h2>
-        <p>Descriptions of your projects.</p>
-    </section>
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>Email: your.email@example.com</p>
-    </section>
-    <footer>
-        <p>&copy; 2024 My Website</p>
-    </footer>
-</body>
+<html>
+    <head>
+        <title>Xianshen He's information: Home</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet"
+              href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"
+              integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
+              crossorigin="anonymous">
+        <link rel="stylesheet"
+              href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="/css/group.css">
+    </head>
+    <body>
+        <div class="container">
+            <!-- This is a bit nasty, but it basically says be a column first, and on larger screens be a spaced out row -->
+            <div class="header d-flex
+                        flex-column
+                        flex-md-row justify-content-md-between">
+                <a href="/" class="">
+                    <img src="/img/logo.png" 
+                         srcset="/img/logo@2x.png 2x"
+                         alt="Awesome" id="logo"
+                        style="width:300px;height:auto;">
+                </a>
+                <ul class="nav nav-pills justify-content-center">
+
+                    
+                    
+
+                        
+
+                        
+                        
+                        
+
+                        <li class="nav-item">
+                            <a class="nav-link active"
+                               href="/">
+                                个人信息  Personal Information
+                            </a>
+                        </li>
+
+                    
+
+                        
+
+                        
+                        
+                        
+
+                        <li class="nav-item">
+                            <a class="nav-link "
+                               href="/daily social.html">
+                                交流平台 Communication Platform
+                            </a>
+                        </li>
+
+                    
+
+                        
+
+                        
+                        
+                        
+
+                        <li class="nav-item">
+                            <a class="nav-link "
+                               href="/more.html">
+                                更多 More
+                            </a>
+                        </li>
+
+                    
+
+                </ul>
+            </div>
+
+            
+
+            
+
+            <div class="jumbotron">
+    <p>
+        <b>我的兴趣爱好是：<b>
+	<b>吃饭睡觉打豆豆</b>。 
+    </p>
+</div>
+
+<img src="img/people/1.jpg" alt="描述文本" width="500"height="500"/>
+		
+<img src="img/people/2.jpg" alt="描述文本" width="500"height="500"/>
+		
+		
+		
+<script
+	type="module"
+	src="https://gradio.s3-us-west-2.amazonaws.com/4.41.0/gradio.js"
+></script>
+
+<gradio-app src="https://huggingface.co/spaces/queenzer/test" theme_mode="light"></gradio-app>
+<gradio-app src="https://huggingface.co/spaces/queenzer/test" theme_mode="light"></gradio-app>
+
+<div class="jumbotron">
+    <p>
+        <b>然后在平时玩游戏的时候会记录一些有趣的事情</b>。 
+	<b>这是我空闲时间做的视频</b>。 
+    </p>
+</div>
+<script
+	type="module"
+	src="https://gradio.s3-us-west-2.amazonaws.com/4.41.0/gradio.js"
+></script>
+
+
+<style>
+  .video-container {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    height: 0;
+    overflow: hidden;
+  }
+  .video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+</style>
+
+<div class="video-container">
+  <iframe src="https://www.bilibili.com/video/BV1ye411b7Lr/" frameborder="0" allowfullscreen></iframe>
+</div>
+
+<div class="jumbotron">
+    <p>
+        <b>希望感兴趣的朋友可以多多交流</b> 
+    </p>
+</div>
+
+<div class="jumbotron">
+    <p>
+        <b>我的联系邮箱地址是：<b> a1293314536@gmail.com</b>
+    </p>
+</div>
+
+
+            <div class="footer">
+                <p>
+                    <a href="https://www.ln.edu.hk/sis">跨学科学院 School of Interdisciplinary Studies</a>
+                    -
+                    <a href="https://www.ln.edu.hk/chs">岭南大学 </a>
+                    <a href="https://www.ln.edu.hk/"> Lingnan University</a>
+                    -
+                    <a href = "mailto: xianshenhe@ln.hk">xianshenhe@ln.hk</a>
+                </p>
+
+
+            </div>
+
+        </div> <!-- /container -->
+
+        <!-- Support retina images. -->
+        <script type="text/javascript"
+                src="/js/srcset-polyfill.js"></script>
+    </body>
 </html>
